@@ -11,7 +11,7 @@ spec:
       labels:
         app: demo-app
         app.kubernetes.io/name: demo-app
-        app.kubernetes.io/part-of: demo-app
+        # app.kubernetes.io/part-of: demo-app
         app.kubernetes.io/version: {{ .Values.serviceVersion }}
     spec:
       containers:
